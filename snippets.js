@@ -30,3 +30,20 @@ function getUrlVars() {
     });
     return vars;
 }
+
+
+// -------------------------------------------------
+// LocalStorage in JavaScript: How to
+// -------------------------------------------------
+
+// Guide: https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/
+
+localStorage.setItem('price', str);
+
+setItem(): Add key and value to localStorage
+getItem(): Retrieve a value by the key from localStorage
+removeItem(): Remove an item by key from localStorage
+clear(): Clear all localStorage
+key(): Passed a number to retrieve nth key of a localStorage
+
+
