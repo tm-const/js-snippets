@@ -18,3 +18,15 @@ const iio = create_UUID();
 document.querySelector('#tmp_button-85389').click(function() {
 	location.href = "https://jordanbelfort.clickfunnels.com/mainevent1/?cf-affiliate-id=" + iio;
 });
+
+
+// -------------------------------------------------
+// Get URL Vars
+// -------------------------------------------------
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+        vars[key] = value;
+    });
+    return vars;
+}
