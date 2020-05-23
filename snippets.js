@@ -84,3 +84,32 @@ function AlmostCake_2ss0q()
 
 // End of AlmostCake.com Subliminal Blink Script
 </script>
+
+
+// -------------------------------------------------
+// UX Alternative Tab Titles
+// -------------------------------------------------
+
+
+<script type="text/javascript">
+
+// AlmostCake.com Alternative Titles Script:
+
+function AlmostCakeAT_l0gdh() 
+{
+	if (document.hasFocus()) 
+	{
+		var newTitle = "Almost Cake";
+		document.title = newTitle;
+	}
+	else
+	{
+		var newTitle = "🙁 Miss You. Come back...";
+		document.title = newTitle;
+	};
+};
+setInterval(AlmostCakeAT_l0gdh, 500);
+
+// End of AlmostCake.com Alternative Titles Script
+
+</script>
