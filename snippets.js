@@ -47,3 +47,40 @@ clear(): Clear all localStorage
 key(): Passed a number to retrieve nth key of a localStorage
 
 
+// -------------------------------------------------
+// UX Subliminal Blink Technique
+// -------------------------------------------------
+
+<script type="text/javascript">
+
+// AlmostCake.com Subliminal Blink Script:
+// You can edit opacity by adjusting the values below. Remember, that in CSS opacity 0.8 stands for 80%!
+
+document.addEventListener("DOMContentLoaded", function(event) 
+	{
+	setTimeout(function()
+		{
+		document.getElementById("sblink1").style.opacity="0.8";
+		AlmostCake_2ss0q2();
+		}, 2000);
+	});
+
+function AlmostCake_2ss0q2() 
+	{
+	setTimeout(function()
+		{		
+		document.getElementById("sblink1").style.opacity="1";
+		AlmostCake_2ss0q();
+		}, 115);
+	};
+function AlmostCake_2ss0q() 
+	{
+	setTimeout(function()
+		{
+		document.getElementById("sblink1").style.opacity="0.8";
+		AlmostCake_2ss0q2();
+		}, 2000);
+	}
+
+// End of AlmostCake.com Subliminal Blink Script
+</script>
