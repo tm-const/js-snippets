@@ -99,7 +99,7 @@ function AlmostCakeAT_l0gdh()
 {
 	if (document.hasFocus()) 
 	{
-		var newTitle = "Almost Cake";
+		var newTitle = "Original title";
 		document.title = newTitle;
 	}
 	else
