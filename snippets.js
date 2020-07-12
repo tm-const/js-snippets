@@ -152,3 +152,37 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     console.log('')
 }
 </script>
+
+
+// -------------------------------------------------
+// One-Time Event
+// -------------------------------------------------
+
+
+<script>
+	
+  // create a one-time event
+  function onetime(node, type, callback) {
+    // create event
+    node.addEventListener(type, function(e) {
+      // remove event
+      e.target.removeEventListener(e.type, arguments.callee);
+      // call handler
+      return callback(e);
+    });
+  }
+
+  // First Name Input Field
+  const fname = document.getElementById("fname");
+
+  // fname - one-time event
+  onetime(fname, "focus", handler);
+
+  // fname - handler function
+  function handler(e) {
+    console.log('test')
+    fbq('track', 'InitiateCheckout', {
+      content_name: 'flc, salespage',
+    });
+  }	
+</script>
